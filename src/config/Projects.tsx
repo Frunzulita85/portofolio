@@ -141,4 +141,23 @@ export const projects: Project[] = [
     projectDetailsPageSlug: '/projects/therapist-demo',
     isWorking: true,
   },
+  {
+    title: 'Mobile Tire Service 24/7 Demo',
+    description:
+      'Bilingual (RO/EN) presentation web application built with Next.js, TypeScript, and Tailwind CSS for 24/7 mobile tire repair and roadside assistance, featuring direct call and WhatsApp actions, service area pages, and localized metadata.',
+    image: '/project/vulcanizare.png',
+    link: 'https://vulcanizaremobila-demo-two.vercel.app/',
+    technologies: [
+      { name: 'Next.js', icon: <NextJs key="nextjs" /> },
+      { name: 'TypeScript', icon: <TypeScript key="typescript" /> },
+      { name: 'Tailwind CSS', icon: <TailwindCss key="tailwindcss" /> },
+      { name: 'Vercel', icon: <Vercel key="vercel" /> },
+      { name: 'GitHub', icon: <Github key="github" /> },
+    ],
+    github: 'https://github.com/Frunzulita85',
+    live: 'https://vulcanizaremobila-demo-two.vercel.app/',
+    details: true,
+    projectDetailsPageSlug: '/projects/vulcanizare-mobila',
+    isWorking: true,
+  },
 ];
